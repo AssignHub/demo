@@ -19,7 +19,7 @@
       <v-spacer></v-spacer>
 
       <v-avatar>
-        <img src="https://lh3.googleusercontent.com/ogw/ADGmqu-Zu6BCGm76JhjQpuTITJZAU458l7wy3YUPsBq2=s83-c-mo">
+        <img src="@/assets/jim.jpg">
       </v-avatar>
     </v-app-bar>
 

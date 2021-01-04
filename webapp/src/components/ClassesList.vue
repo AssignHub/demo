@@ -24,9 +24,20 @@
       </v-list-item>
     </v-list>
     
-    <AddClassMenu :term="term" />
+    <v-btn
+      text
+      block
+      class="grey lighten-2 add-btn"
+    >+ Add Class</v-btn>
   </v-card>
 </template>
+
+<style scoped>
+  .add-btn {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+</style>
 
 <script>
 import AddClassMenu from '@/components/AddClassMenu'

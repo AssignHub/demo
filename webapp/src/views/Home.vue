@@ -61,9 +61,9 @@ export default {
 
   data() {
     return {
-      firstName: 'Jonathan',
-      lastName: 'Liu',
-      terms: [],
+      firstName: 'Jim',
+      lastName: 'Smith',
+      terms: [{term: '', text: 'Spring 2021'}],
       classes: [
         {uid: 'BUAD-304', text: 'BUAD 304', color: 'green lighten-2'},
         {uid: 'CSCI-103', text: 'CSCI 103', color: 'orange lighten-2'},
@@ -98,10 +98,6 @@ export default {
         {uid: '7', classUid: 'CSCI-103', name: 'Algorithm Lab', dueDate: new Date().getTime() + 3*(24 * 60 * 60 * 1000)},
       ],
     }
-  },
-
-  async mounted() {
-    this.terms = await get('/usc/terms')
   },
 
   methods: {
